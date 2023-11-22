@@ -10,9 +10,6 @@ class Solution {
                     answer++;
                     painted=section[i]+m-1;
                 }
-                else{
-                    continue;
-                }
             }
         }
         
