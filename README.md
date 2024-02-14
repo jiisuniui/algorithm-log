@@ -1,1 +1,1 @@
-# everyday-algorithm
+# algorithm-log
