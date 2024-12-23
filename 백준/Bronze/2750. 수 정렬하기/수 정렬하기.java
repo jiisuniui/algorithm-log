@@ -1,18 +1,20 @@
-import java.util.Arrays;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.List;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int N = scanner.nextInt();
-        int[] arr = new int[N];
+        Scanner scann = new Scanner(System.in);
+        int N = scann.nextInt();
+        List<Integer> list = new ArrayList<>();
         for (int i = 0; i < N; i++) {
-            arr[i] = scanner.nextInt();
+            list.add(scann.nextInt());
         }
-        Arrays.sort(arr);
-
+        Collections.sort(list);
         for (int i = 0; i < N; i++) {
-            System.out.println(arr[i]);
+            System.out.println(list.get(i));
         }
     }
 }
